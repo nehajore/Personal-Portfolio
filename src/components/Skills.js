@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-icons/fa';
+import { FaJava } from 'react-icons/fa';
 
 import { SiSpringboot, SiMysql } from 'react-icons/si';
 import './Skills.css';
