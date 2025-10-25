@@ -1,0 +1,147 @@
+.about-me {
+  padding: 100px 0;
+  background: white;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.about-text {
+  margin-bottom: 2rem;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.resume-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.resume-btn {
+  display: inline-block;
+  background: linear-gradient(45deg, #4A90E2, #7B68EE);
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(74, 144, 226, 0.4);
+  background: linear-gradient(45deg, #7B68EE, #4A90E2);
+}
+
+.education-section {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.education-title {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.education-timeline {
+  position: relative;
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(45deg, #4A90E2, #7B68EE);
+}
+
+.education-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 80px;
+}
+
+.education-item::before {
+  content: '';
+  position: absolute;
+  left: 22px;
+  top: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #4A90E2;
+  border: 4px solid white;
+  box-shadow: 0 0 0 4px #4A90E2;
+}
+
+.education-year {
+  position: absolute;
+  left: -80px;
+  top: 10px;
+  background: linear-gradient(45deg, #4A90E2, #7B68EE);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.education-details h4 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.education-details p {
+  color: #666;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.education-details p:last-child {
+  font-weight: 600;
+  color: #4A90E2;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .education-year {
+    position: static;
+    display: inline-block;
+    margin-bottom: 1rem;
+  }
+  
+  .education-item {
+    padding-left: 0;
+  }
+  
+  .education-timeline::before {
+    display: none;
+  }
+  
+  .education-item::before {
+    display: none;
+  }
+}
