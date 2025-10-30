@@ -9,16 +9,16 @@ const Projects = () => {
       description: 'A responsive personal portfolio website built with React.js showcasing my skills, projects, and experience. Features modern UI design with smooth animations and mobile-first approach.',
       technologies: ['React.js', 'CSS3', 'JavaScript', 'HTML5'],
       githubLink: 'https://github.com/neha-jore/personal-portfolio',
-      liveLink: 'https://neha-portfolio.netlify.app',
+      liveLink: 'https://nehajoreportfolio.netlify.app/',
       image: 'image.png'
     },
     {
-      title: 'Fast Food Website',
-      description: 'A full-stack fast food ordering website with React frontend and Spring Boot backend. Includes user authentication, menu management, order tracking, and payment integration.',
+      title: 'Library Management System',
+      description: 'A full-stack library management system with React frontend and Spring Boot backend. Includes user authentication, book management, and borrowing functionality.',
       technologies: ['React.js', 'Spring Boot', 'MySQL', 'Java', 'CSS3'],
-      githubLink: 'https://github.com/neha-jore/fastfood-website',
-      liveLink: 'https://fastfood-demo.netlify.app',
-      image: 'fastfood.png'
+      githubLink: 'https://github.com/neha-jore/library-management',
+      liveLink: 'https://libraysystem.netlify.app/',
+      image: 'libarary.png'
     }
   ];
 
